@@ -1,0 +1,118 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  /* Product Booking Container */
+  .product-booking-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+  
+  td {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #72b9bb;
+  }
+  
+  /* Form Inputs */
+  input[type="text"], input[type="number"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Product Details Table */
+  .product-details-table th {
+    background-color: #759fc9;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .product-details-table td {
+    font-size: 16px;
+  }
+  
+  /* Booking Form Table */
+  .booking-form-table th {
+    background-color: #72b4c1;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .booking-form-table td {
+    font-size: 16px;
+  }
+  

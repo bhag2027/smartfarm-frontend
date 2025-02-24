@@ -1,0 +1,45 @@
+/* NavUser Styling */
+.navbar {
+    background-color: #d3d3d3;  /* Light grey color */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: rgb(171, 171, 50);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: black;  /* Change text color to black for better contrast on light grey */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar-links li {
+    display: inline-block;
+}

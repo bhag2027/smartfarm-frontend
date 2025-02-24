@@ -1,0 +1,52 @@
+/* General table styling */
+.table-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-table th {
+    background-color: #839684;
+    color: white;
+  }
+  
+  .product-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* In ViewProducts.css or the appropriate CSS file */
+.book-button {
+    background-color: #7cda80;  /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-button:hover {
+    background-color: #bcffbf;  /* Slightly darker green on hover */
+  }
+  
+  /* Error message styling */
+  p {
+    color: red;
+    font-weight: bold;
+  }
+  

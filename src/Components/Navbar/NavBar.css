@@ -1,0 +1,60 @@
+
+
+  nav {
+    width: 100%;
+    background-color: #686d3f; /* Change this to your desired background color */
+    color: #efefda; /* Text color */
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo {
+    width: 70px;
+}
+
+nav ul {
+    display: flex; /* Use flexbox to center items */
+    justify-content: center; /* Center items */
+    flex: 1; /* Allow ul to take remaining space */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 7px 20px;
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 20px;
+    color: #1a1818; /* Button text color */
+}
+
+.btn:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+
+.dropdown-menu {
+    background-color: #0c0d0d; 
+    border: none; 
+    padding: 0; 
+}
+
+.dropdown-menu .nav-link {
+    color: #ffffff; /* Dropdown text color */
+    padding: 10px 20px; 
+    text-decoration: none;
+}
+
+/* Optional: Change link color on hover */
+nav ul li:hover, .dropdown-menu .nav-link:hover {
+    color: #ffcc00; /* Change this to a hover color of your choice */
+}
